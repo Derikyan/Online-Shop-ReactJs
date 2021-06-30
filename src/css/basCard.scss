@@ -1,0 +1,28 @@
+.basCard{
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: solid 0;
+    .basImg{
+        width: 5rem;
+        height: 5rem;
+    }
+    .x{
+        width: 1rem;
+    }
+    .basDesc{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        span:first-child{
+            font-size: 1rem;
+        }
+        span{
+            font-size: 0.7rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+body {
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+
+.ban{
+	width: 23rem;
+	height: 20rem;
+}
+
+@import 'nav';
+@import 'mavic';
+@import 'basket';

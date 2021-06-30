@@ -1,0 +1,10 @@
+.mavic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 3rem;
+    min-height: 50vh;
+    padding: 2rem 2rem;
+}
+
+@import 'card';
